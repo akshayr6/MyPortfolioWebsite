@@ -4,12 +4,10 @@ import {
     Container,
     Heading,
     Box,
-    SimpleGrid,
     Button,
     List,
     ListItem,
-    useColorModeValue,
-    chakra
+    useColorModeValue
   } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -18,9 +16,6 @@ import NextLink from 'next/link'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import { GridItem } from '../components/grid-item'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
  
 const Page = () => {
   return (
@@ -61,9 +56,9 @@ const Page = () => {
           </Heading>
           <Paragraph>
           I am a full-stack developer with a passion 
-          for building digital experiences I want. I like to think that I've got a knack for all things 
+          for building digital experiences I want. I like to think that I&apos;ve got a knack for all things 
           launching products, from planning and designing all the way to solving real-life problems 
-          with code. When not online, I love hanging out with my art supplies. Currently, I'm exploring 
+          with code. When not online, I love hanging out with my art supplies. Currently, I&apos;m exploring 
           all things Web3 hoping to leave my footprint wherever possible. Reach out to me on any of my
           socials below if you want to say Hi 👋.
           </Paragraph>

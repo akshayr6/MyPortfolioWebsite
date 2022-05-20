@@ -2,7 +2,7 @@ import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
-// import Footer from '../footer'
+import Footer from '../footer'
 import VoxelDogLoader from '../voxel-dog-loader'
 
 const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
@@ -29,7 +29,7 @@ const Main = ({ children, router }) => {
         <meta name="og:title" content="Takuya Matsuyama" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.craftz.dog/card.png" />
-        <title>Takuya Matsuyama - Homepage</title>
+        <title>Akshay Raja Reddy - Homepage</title>
       </Head>
 
       <NavBar path={router.asPath} />
@@ -39,7 +39,7 @@ const Main = ({ children, router }) => {
 
         {children}
 
-        {/* <Footer /> */}
+        <Footer />
       </Container>
     </Box>
   )

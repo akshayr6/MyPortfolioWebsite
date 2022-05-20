@@ -56,7 +56,8 @@ const Page = () => {
           </Heading>
           <Paragraph>
           I am a full-stack developer with a passion 
-          for building digital experiences I want. I like to think that I&apos;ve got a knack for all things 
+          for building digital experiences that I&apos;d like to share with the world.
+          I like to think that I&apos;ve got a knack for all things 
           launching products, from planning and designing all the way to solving real-life problems 
           with code. When not online, I love hanging out with my art supplies. Currently, I&apos;m exploring 
           all things Web3 hoping to leave my footprint wherever possible. Reach out to me on any of my
